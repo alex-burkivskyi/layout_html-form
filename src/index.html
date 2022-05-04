@@ -16,11 +16,9 @@
       action="http://localhost:300api"
       method="get"
     >
-      <fieldset>
+      <fieldset class="box">
         <legend>Personal information</legend>
-        <label
-        class="form-field"
-        >
+        <label class="form-field">
           Surname:
           <input
             type="text"
@@ -30,9 +28,7 @@
             required
           >
         </label>
-        <label
-          class="form-field"
-        >
+        <label class="form-field">
           Name:
           <input
             type="text"
@@ -42,9 +38,7 @@
             required
           >
         </label>
-        <label
-          class="form-field"
-        >
+        <label class="form-field">
           How old are You?
           <input
             type="number"
@@ -56,17 +50,14 @@
             required
           >
         </label>
-        <label
-          class="form-field"
-        >
+        <label class="form-field">
           Full date of birth:
           <input
             type="date"
-            name="date">
+            name="date"
+          >
         </label>
-        <label
-          class="form-field"
-        >
+        <label class="form-field">
           I accept the term of the agreement
           <input
             type="checkbox"
@@ -75,11 +66,9 @@
           >
         </label>
       </fieldset>
-      <fieldset>
+      <fieldset class="box">
         <legend>Registration</legend>
-        <label
-        class="form-field"
-        >
+        <label class="form-field">
           E-mail:
           <input
             type="email"
@@ -88,9 +77,7 @@
             class="field"
           >
         </label>
-        <label
-        class="form-field"
-        >
+        <label class="form-field">
           Password:
           <input
             type="password"
@@ -101,7 +88,7 @@
           >
         </label>
       </fieldset>
-      <fieldset>
+      <fieldset class="box">
         <legend>An interesting fact about you!</legend>
         <div class="form-field">
           Do you love cats?
@@ -110,14 +97,16 @@
               type="radio"
               name="catLover"
               value="yes"
-            > Yes
+            >
+            Yes
           </label>
           <label>
             <input
               type="radio"
               name="catLover"
               value="no"
-            > No
+            >
+            No
           </label>
         </div>
         <label class="form-field">
@@ -156,7 +145,7 @@
           >
         </label>
       </fieldset>
-      <fieldset>
+      <fieldset class="box">
         <legend>Additional info:</legend>
         <label class="form-field">
           Comments:
@@ -167,10 +156,13 @@
         </label>
         <label class="form-field">
           Would you recommend us?
-          <select name="recomend">
-            <option
-              value="yes" selected>yes</option>
-            <option value="no">no</option>
+          <select name="recommend">
+            <option value="yes" selected>
+              yes
+            </option>
+            <option value="no">
+              no
+            </option>
           </select>
         </label>
       </fieldset>
